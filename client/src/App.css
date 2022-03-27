@@ -1,0 +1,27 @@
+.App{
+  padding: 5%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.paginaton{
+  padding-top:10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  margin: 0px 5px;
+  cursor: pointer;
+}
